@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>开发者平台</title>
+<meta name="keywords" content="水平导航,下拉导航,纯css导航" />
+<meta name="description" content="www.calamus.cn" />
+<!-- add styles -->
+<link href="css.css" rel="stylesheet" type="text/css" />
+<link href="reset.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="flexslider.css" />
+<script  src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script  src="jquery.flexslider-min.js"></script>
+</head>
+<body style="height: 500px;">
+<header class="container gradientBlueColor">
+	<div class="logobar"><img alt="" src="images/logo.jpg" height="58px" /></div>
+    <div class="rightbar">
+    	<ul class="menu">
+        	<li><a href="#">菜单四</a>
+            <ul class="submenu ">
+				<li><a href="#">子菜单A</a></li>
+				<li><a href="#">子菜单B</a></li>
+				<li><a href="#">子菜单C</a></li>
+				<li><a href="#">子菜单D</a></li>
+				<li><a href="#">子菜单E</a></li>
+			</ul>
+            </li>
+        </ul>
+    </div>
+    	<div class="minbar">
+	<ul class="menu">
+		<li><a href="#">主页</a></li>
+		<li><a href="#">菜单一</a>
+		</li>
+		<li class="active"><a href="#">菜单二</a>
+		</li>
+        <li><a href="#">菜单三</a></li>
+        <li><a href="#">返回教程</a></li>			
+	</ul>
+    </div>
+</header>
+<div class="flexslider">
+	<ul class="slides">
+        <li><a href="#"><img src="images/banner1.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner2.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner3.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner4.jpg" /></a></li>
+    </ul>
+</div>
+<footer class="gradientBlueColorFade container">
+	<div class="footerlogo"><img alt="" src="images/logo.jpg" height="58px" /></div>
+    <div class="friengUrl">
+        <ul>
+            <li><a href="#">链接　|　</a></li>
+            <li><a href="#">链接　|　</a></li>
+            <li><a href="#">链接　|　</a></li>
+            <li><a href="#">链接　</a></li>
+        </ul>
+    </div>
+</footer>
+<script type="text/javascript">
+    $(function() {
+        $(".flexslider").flexslider({
+            animation: "slide"
+        });
+    });
+</script>
+</body>
+</html>
